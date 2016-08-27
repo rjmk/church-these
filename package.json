@@ -1,0 +1,24 @@
+{
+  "name": "church-these",
+  "version": "0.0.0",
+  "description": "Church encoding of `these` for JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjmk/church-these.git"
+  },
+  "keywords": [
+    "church",
+    "these",
+    "adt"
+  ],
+  "author": "rjmk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjmk/church-these/issues"
+  },
+  "homepage": "https://github.com/rjmk/church-these#readme"
+}
