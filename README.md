@@ -14,15 +14,15 @@ and @dominictarr's [pull streams][pull].
 ## Installation
 
 ```console
-`npm install church-these`
+npm install church-these
 ```
 
 ## Motivation
 
 If you have two boxes that can have something in them there are 4 possibilities:
-	* Both are occupied
-	* Neither are occupied
-	* One each for each box being occupied (assuming you can distinguish the boxes)
+* Both are occupied
+* Neither are occupied
+* One each for each box being occupied (assuming you can distinguish the boxes)
 
 The `Either` type restricts one to the bottom bullet point.
 The `These` type restricts one to either the first or the last bullet point.
@@ -33,18 +33,20 @@ This is useful for modelling situations where not all 4 possibilities make sense
 
 This library fufils the following [Static Land][static-land] specs:
 
-	* Functor
-	* Bifunctor
-	* Foldable
-	* Traversable
+* Functor
+* Bifunctor
+* Foldable
+* Traversable
 
 It could, but does not currently, fulfil (after constraining the types it holds):
 
-	* Semigroup
-	* Monoid
-	* Apply
-	* Applicative
-	* Monad
+* Semigroup
+* Monoid
+* Apply
+* Applicative
+* Monad
+
+[static-land]: https://github.com/rpominov/static-land
 
 ## Usage
 
