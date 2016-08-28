@@ -58,7 +58,7 @@ var b = These.that([ "hello" ])
 var c = These.those(0, [ "a", "b" ])
 
 var change = those =>
-	These.bimap(x => x + 1, xs => xs.map(x => x.toUpperCase()))
+	These.bimap(x => x + 1, xs => xs.map(x => x.toUpperCase()), those)
 
 change(a) // These.this(14)
 change(b) // These.that([ "HELLO" ])
