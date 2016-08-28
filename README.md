@@ -8,7 +8,8 @@ A church encoding of the These data structure inspired by [@joneshf's Elm These]
 ## Vibe
 
 I've not curried the functions which has reduce ability for pointfree.
-There's no check that you always pass in all three reducing functions, though I considered one.
+There's no check that you always pass in all three reducing functions.
+It might make sense to add one, but I'm erring on the side of bare bones
 
 ## TODO
 
